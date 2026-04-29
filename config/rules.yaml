@@ -1,0 +1,19 @@
+# 内容合规与脱敏配置
+
+compliance_standards:
+  tone: "neutral, objective, authoritative"
+  historical_evaluation: "strict_official_qualitative_expressions"
+
+sanitization_rules:
+  remove_author_names: true
+  remove_platform_mentions: true
+  blacklisted_platforms:
+    - "Bilibili"
+    - "b站"
+    - "哔哩哔哩"
+    - "YouTube"
+    - "抖音"
+  
+target_audience:
+  demographic: "middle-aged"
+  style: "calm, analytical, deep-dive"
